@@ -42,6 +42,7 @@ const subtractValue = () =>{
     <>
       <h1>Hello react + vite with {username}</h1>
       <h2>Counter value: {counter}</h2>
+      {/* onClick expects a function */}
       <button onClick={addValue}>Add value</button>
       <p>Counter Becomes:{counter}</p>
       <br /> <br />
